@@ -1,0 +1,105 @@
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            text-transform: lowercase;
+        }
+
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            width: 100%;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header .logo {
+            color: white;
+            font-size: 60px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .navigation a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 5px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            padding: 10px 15px;
+            border-radius: 70px;
+            transition: background 0.3s;
+        }
+        
+        
+        .navigation a:hover {
+            background: black;
+        }
+
+        section > {
+            position: relative;
+            z-index: 1;
+        }
+
+        section {
+            width: 100%;
+            min-width: 20vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 15px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            align-items: center;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+         
+        .info-about-nature h2, .info-about-nature h1 {
+            text-transform: uppercase;
+            font-size: 30px;
+            margin-bottom: 0%;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .info-about-nature p {
+            font-size: 20px;
+            margin-bottom: 0%;
+            width: 700px;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: rgba(0, 0, 0, 0.5);
+        }
